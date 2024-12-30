@@ -1,1 +1,0 @@
-D:/pythonproject/ImageInpainting/lama/bin/predict.py model.path=D:/pythonproject/ImageInpainting/lama/big-lama indir=D:/pythonproject/ImageInpainting/lama/LaMa_test_images outdir=D:/pythonproject/ImageInpainting/lama/otput
