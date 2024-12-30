@@ -1,0 +1,8 @@
+[2024-11-20 19:50:58,792][__main__][CRITICAL] - Prediction failed due to expected str, bytes or os.PathLike object, not bool:
+Traceback (most recent call last):
+  File "D:\pythonproject\ImageInpainting\lama\bin\predict.py", line 47, in main
+    train_config_path = os.path.join(predict_config.model.path, 'config.yaml')
+  File "C:\Users\jiuti\AppData\Local\Programs\Python\Python310\lib\ntpath.py", line 78, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not bool
+

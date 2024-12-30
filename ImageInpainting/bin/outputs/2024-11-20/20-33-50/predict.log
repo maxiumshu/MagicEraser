@@ -1,0 +1,6 @@
+[2024-11-20 20:33:50,419][__main__][CRITICAL] - Prediction failed due to [Errno 2] No such file or directory: 'D:/pythonproject/ImageInpainting/lama/big-lama\\config.yaml':
+Traceback (most recent call last):
+  File "D:\pythonproject\ImageInpainting\bin\predict.py", line 48, in main
+    with open(train_config_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:/pythonproject/ImageInpainting/lama/big-lama\\config.yaml'
+
